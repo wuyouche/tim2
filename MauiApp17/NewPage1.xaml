@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp17.NewPage1"
+             Title="返回">
+    <WebView Source="https://www.windy.com/zh-TW/-%E9%A2%A8%E9%80%9F-efiWind?efiWind,24.939,121.542,5"/>
+</ContentPage>

@@ -1,0 +1,502 @@
+[
+  {
+    "Code": "0",
+    "description": "晴朗的天空",
+    "e-description": "clear sky"
+  },
+  {
+    "Code": "1",
+    "description": "晴天",
+    "e-description": "sunny"
+  },
+  {
+    "Code": "2",
+    "description": "晴時多雲",
+    "e-description": "Sunny and cloudy"
+  },
+  {
+    "Code": "3",
+    "description": "陰天",
+    "e-description": "cloudy day"
+  },
+  {
+    "Code": "4",
+    "description": "多雲",
+    "e-description": "cloudy"
+  },
+  {
+    "Code": "5",
+    "description": "少雲",
+    "e-description": "partly cloudy"
+  },
+  {
+    "Code": "6",
+    "description": "間斷性雲",
+    "e-description": "Intermittent clouds"
+  },
+  {
+    "Code": "7",
+    "description": "間歇性雨",
+    "e-description": "intermittent rain"
+  },
+  {
+    "Code": "8",
+    "description": "間歇性陣雨",
+    "e-description": "intermittent showers"
+  },
+  {
+    "Code": "9",
+    "description": "雷暴",
+    "e-description": "thunderstorm"
+  },
+  {
+    "Code": "10",
+    "description": "強雷暴",
+    "e-description": "severe thunderstorm"
+  },
+  {
+    "Code": "11",
+    "description": "小雨",
+    "e-description": "light rain"
+  },
+  {
+    "Code": "12",
+    "description": "中雨",
+    "e-description": "moderate rain"
+  },
+  {
+    "Code": "13",
+    "description": "大雨",
+    "e-description": "heavy rain"
+  },
+  {
+    "Code": "14",
+    "description": "暴雨",
+    "e-description": "downpour"
+  },
+  {
+    "Code": "15",
+    "description": "雷陣雨",
+    "e-description": "thundershowers"
+  },
+  {
+    "Code": "16",
+    "description": "小雪",
+    "e-description": "light snow"
+  },
+  {
+    "Code": "17",
+    "description": "中雪",
+    "e-description": "moderate snow"
+  },
+  {
+    "Code": "18",
+    "description": "大雪",
+    "e-description": "heavy snow"
+  },
+  {
+    "Code": "19",
+    "description": "雨夾雪",
+    "e-description": "sleet"
+  },
+  {
+    "Code": "20",
+    "description": "冰雹",
+    "e-description": "hail"
+  },
+  {
+    "Code": "21",
+    "description": "霧",
+    "e-description": "fog"
+  },
+  {
+    "Code": "22",
+    "description": "霾",
+    "e-description": "haze"
+  },
+  {
+    "Code": "23",
+    "description": "熱",
+    "e-description": "hot"
+  },
+  {
+    "Code": "24",
+    "description": "寒冷",
+    "e-description": "cold"
+  },
+  {
+    "Code": "25",
+    "description": "多風",
+    "e-description": "windy"
+  },
+  {
+    "Code": "26",
+    "description": "有風",
+    "e-description": "breezy"
+  },
+  {
+    "Code": "27",
+    "description": "暴風",
+    "e-description": "gale"
+  },
+  {
+    "Code": "28",
+    "description": "颶風",
+    "e-description": "hurricane"
+  },
+  {
+    "Code": "29",
+    "description": "龍捲風",
+    "e-description": "tornado"
+  },
+  {
+    "Code": "30",
+    "description": "暴雪",
+    "e-description": "blizzard"
+  },
+  {
+    "Code": "31",
+    "description": "火山灰",
+    "e-description": "volcanic ash"
+  },
+  {
+    "Code": "32",
+    "description": "沙塵暴",
+    "e-description": "dust storm"
+  },
+  {
+    "Code": "33",
+    "description": "海浪",
+    "e-description": "surf"
+  },
+  {
+    "Code": "34",
+    "description": "海浪警告",
+    "e-description": "surf warning"
+  },
+  {
+    "Code": "35",
+    "description": "海嘯",
+    "e-description": "tsunami"
+  },
+  {
+    "Code": "36",
+    "description": "海冰",
+    "e-description": "sea ice"
+  },
+  {
+    "Code": "37",
+    "description": "雷暴風暴",
+    "e-description": "thunderstorm"
+  },
+  {
+    "Code": "38",
+    "description": "離岸海浪",
+    "e-description": "offshore waves"
+  },
+  {
+    "Code": "39",
+    "description": "沙漠沙塵",
+    "e-description": "desert dust"
+  },
+  {
+    "Code": "40",
+    "description": "毛毛雨",
+    "e-description": "drizzle"
+  },
+  {
+    "Code": "41",
+    "description": "小陣雨",
+    "e-description": "light showers"
+  },
+  {
+    "Code": "42",
+    "description": "中陣雨",
+    "e-description": "moderate showers"
+  },
+  {
+    "Code": "43",
+    "description": "大陣雨",
+    "e-description": "heavy showers"
+  },
+  {
+    "Code": "44",
+    "description": "地形",
+    "e-description": "terrain"
+  },
+  {
+    "Code": "45",
+    "description": "寒潮",
+    "e-description": "cold wave"
+  },
+  {
+    "Code": "46",
+    "description": "熱浪",
+    "e-description": "heat wave"
+  },
+  {
+    "Code": "47",
+    "description": "低溫",
+    "e-description": "low temperature"
+  },
+  {
+    "Code": "48",
+    "description": "雨後晴",
+    "e-description": "clear after rain"
+  },
+  {
+    "Code": "49",
+    "description": "雨後曇",
+    "e-description": "cloudy after rain"
+  },
+  {
+    "Code": "50",
+    "description": "雪後晴",
+    "e-description": "clear after snow"
+  },
+  {
+    "Code": "51",
+    "description": "雪後曇",
+    "e-description": "cloudy after snow"
+  },
+  {
+    "Code": "52",
+    "description": "雨雪交加",
+    "e-description": "rain and snow"
+  },
+  {
+    "Code": "53",
+    "description": "局部有霾",
+    "e-description": "partial haze"
+  },
+  {
+    "Code": "54",
+    "description": "全域有霾",
+    "e-description": "global haze"
+  },
+  {
+    "Code": "55",
+    "description": "局部有霧",
+    "e-description": "partial fog"
+  },
+  {
+    "Code": "56",
+    "description": "全域有霧",
+    "e-description": "global fog"
+  },
+  {
+    "Code": "57",
+    "description": "輕霧",
+    "e-description": "light mist"
+  },
+  {
+    "Code": "58",
+    "description": "薄霧",
+    "e-description": "thin mist"
+  },
+  {
+    "Code": "59",
+    "description": "霧雨",
+    "e-description": "misty rain"
+  },
+  {
+    "Code": "60",
+    "description": "霧雨後晴",
+    "e-description": "clear after misty rain"
+  },
+  {
+    "Code": "61",
+    "description": "霧雨後曇",
+    "e-description": "cloudy after misty rain"
+  },
+  {
+    "Code": "62",
+    "description": "霧雨後雨",
+    "e-description": "rain after misty rain"
+  },
+  {
+    "Code": "63",
+    "description": "霧雨後雪",
+    "e-description": "snow after misty rain"
+  },
+  {
+    "Code": "64",
+    "description": "雾后晴",
+    "e-description": "clear after fog"
+  },
+  {
+    "Code": "65",
+    "description": "雾后曇",
+    "e-description": "cloudy after fog"
+  },
+  {
+    "Code": "66",
+    "description": "雾后雨",
+    "e-description": "rain after fog"
+  },
+  {
+    "Code": "67",
+    "description": "雾后雪",
+    "e-description": "snow after fog"
+  },
+  {
+    "Code": "68",
+    "description": "霧後晴",
+    "e-description": "clear after haze"
+  },
+  {
+    "Code": "69",
+    "description": "霧後曇",
+    "e-description": "cloudy after haze"
+  },
+  {
+    "Code": "70",
+    "description": "霧後雨",
+    "e-description": "rain after haze"
+  },
+  {
+    "Code": "71",
+    "description": "霧後雪",
+    "e-description": "snow after haze"
+  },
+  {
+    "Code": "72",
+    "description": "霧後雨雪",
+    "e-description": "rain and snow after haze"
+  },
+  {
+    "Code": "73",
+    "description": "霧雨雪",
+    "e-description": "rain and snow"
+  },
+  {
+    "Code": "74",
+    "description": "雨雪",
+    "e-description": "rain and snow"
+  },
+  {
+    "Code": "75",
+    "description": "大雪後晴",
+    "e-description": "clear after heavy snow"
+  },
+  {
+    "Code": "76",
+    "description": "大雪後曇",
+    "e-description": "cloudy after heavy snow"
+  },
+  {
+    "Code": "77",
+    "description": "大雪後雨",
+    "e-description": "rain after heavy snow"
+  },
+  {
+    "Code": "78",
+    "description": "大雪後雪",
+    "e-description": "snow after heavy snow"
+  },
+  {
+    "Code": "79",
+    "description": "大雪後雨雪",
+    "e-description": "rain and snow after heavy snow"
+  },
+  {
+    "Code": "80",
+    "description": "陣雨",
+    "e-description": "showers"
+  },
+  {
+    "Code": "81",
+    "description": "雷陣雨",
+    "e-description": "thunder showers"
+  },
+  {
+    "Code": "82",
+    "description": "小雨後晴",
+    "e-description": "clear after light rain"
+  },
+  {
+    "Code": "83",
+    "description": "小雨後曇",
+    "e-description": "cloudy after light rain"
+  },
+  {
+    "Code": "84",
+    "description": "小雨後雨",
+    "e-description": "rain after light rain"
+  },
+  {
+    "Code": "85",
+    "description": "小雨後雪",
+    "e-description": "snow after light rain"
+  },
+  {
+    "Code": "86",
+    "description": "小雨後雨雪",
+    "e-description": "rain and snow after light rain"
+  },
+  {
+    "Code": "87",
+    "description": "中雨後晴",
+    "e-description": "clear after moderate rain"
+  },
+  {
+    "Code": "88",
+    "description": "中雨後曇",
+    "e-description": "cloudy after moderate rain"
+  },
+  {
+    "Code": "89",
+    "description": "中雨後雨",
+    "e-description": "rain after moderate rain"
+  },
+  {
+    "Code": "90",
+    "description": "中雨後雪",
+    "e-description": "snow after moderate rain"
+  },
+  {
+    "Code": "91",
+    "description": "中雨後雨雪",
+    "e-description": "rain and snow after moderate rain"
+  },
+  {
+    "Code": "92",
+    "description": "大雨後晴",
+    "e-description": "clear after heavy rain"
+  },
+  {
+    "Code": "93",
+    "description": "大雨後曇",
+    "e-description": "cloudy after heavy rain"
+  },
+  {
+    "Code": "94",
+    "description": "大雨後雨",
+    "e-description": "rain after heavy rain"
+  },
+  {
+    "Code": "95",
+    "description": "大雨後雪",
+    "e-description": "snow after heavy rain"
+  },
+  {
+    "Code": "96",
+    "description": "大雨後雨雪",
+    "e-description": "rain and snow after heavy rain"
+  },
+  {
+    "Code": "97",
+    "description": "大雨後暴雨",
+    "e-description": "downpour after heavy rain"
+  },
+  {
+    "Code": "98",
+    "description": "雪後晴",
+    "e-description": "clear after snow"
+  },
+  {
+    "Code": "99",
+    "description": "雪後曇",
+    "e-description": "cloudy after snow"
+  }
+]

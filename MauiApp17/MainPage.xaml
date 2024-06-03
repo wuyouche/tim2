@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp17.MainPage">
+
+    <Grid>
+        <Image Source="img.JPG" Aspect="AspectFill" Scale="1.5"/>
+
+
+        <ScrollView>
+            <VerticalStackLayout>
+
+                <HorizontalStackLayout Margin="10,10,0,0">
+                    <VerticalStackLayout>
+                        <Label x:Name="local" Text="基隆市" FontSize="30" TextColor="White"/>
+                        <Label x:Name="nowTemp " HorizontalOptions="Center" TextColor="White" FontSize="25" Margin="0,40,0,0"/>
+                    </VerticalStackLayout>
+                    <Label x:Name="maxChinese"  Margin="20,0,0,0" FontSize="20" TextColor="White" FontAttributes="Bold"/>
+                    <Label x:Name="max" Margin="10,40,0,0" FontSize="20" TextColor="White"/>
+                    <Label x:Name="minChinese" Margin="20,0,0,0" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                    <Label x:Name="min" Margin="10,40,0,0" FontSize="20" TextColor="White"/>
+                    <Image Source="map.png" WidthRequest="100" HeightRequest="100" HorizontalOptions="EndAndExpand">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnMapImageTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </HorizontalStackLayout>
+
+
+                <HorizontalStackLayout Spacing="2" HorizontalOptions="Center" >
+                    <Frame x:Name="day1" BorderColor="Transparent" BackgroundColor="#100C82" >
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="PutData"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="day1" x:Name="one" TextColor="White" />
+                    </Frame>
+                    <Frame x:Name="day2" BorderColor="Transparent">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="PutData"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="day2" x:Name="two"/>
+                    </Frame>
+                    <Frame x:Name="day3" BorderColor="Transparent">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="PutData"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="day3" x:Name="three"/>
+                    </Frame>
+                    <Frame x:Name="day4" BorderColor="Transparent">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="PutData"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="day4" x:Name="four"/>
+                    </Frame>
+                    <Frame x:Name="day5" BorderColor="Transparent">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="PutData"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="day5" x:Name="five"/>
+                    </Frame>
+                </HorizontalStackLayout>
+
+
+                <ActivityIndicator x:Name="loadingIndicator"
+                               IsRunning="False"
+                               IsVisible="False"/>
+                <HorizontalStackLayout Margin="0,10,0,10">
+                    <Label Text="時間" Margin="18,0,0,0" FontSize="20" TextColor="White"/>
+
+                    <Label Text="溫度" Margin="32,0,0,0" FontSize="20" TextColor="White"/>
+
+                    <Label Text="天氣狀況" Margin="40,0,0,0" FontSize="20" TextColor="White"/>
+                    <Label Text="紫外線等級" Margin="36,0,0,0" FontSize="20" TextColor="White"/>
+                </HorizontalStackLayout>
+
+                <Frame BackgroundColor="#100C82"   HasShadow="True" CornerRadius="10" HeightRequest="400" BorderColor="Transparent" WidthRequest="400" Padding="2.5">
+                    <ScrollView>
+                        <ListView x:Name="weatherListView"    SeparatorVisibility="None" HorizontalOptions="Center" VerticalOptions="Center">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Horizontal" Margin="0,0,0,0" VerticalOptions="CenterAndExpand">
+                                            <Label Text="{Binding Time, StringFormat='{0:HH:mm}'}"
+                                           TextColor="White"
+                                           VerticalOptions="Center" WidthRequest="40"
+                                            FontSize="15"
+                                           Margin="10,0,0,0"/>
+                                            <Label Text="{Binding Temp, StringFormat='{0:F1}°C'}"
+                                               TextColor="White"
+                                               VerticalOptions="Center"
+                                               WidthRequest="50"
+                                               Margin="30,0,0,0"
+                                                   FontSize="15"/>
+                                            <Label Text="{Binding Description}"
+                                               TextColor="White"
+                                               Margin="38,0,0,0"
+                                               WidthRequest="100"
+                                                   FontSize="15"
+                                               VerticalOptions="Center"/>
+                                            <Frame BackgroundColor="{Binding BackgroundColor}"
+                                               CornerRadius="30"
+                                               WidthRequest="20"
+                                               HeightRequest="20"
+                                               BorderColor="Transparent"
+                                               Margin="40,0,0,0"/>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </ScrollView>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

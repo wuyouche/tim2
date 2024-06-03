@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp17.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp17"
+    Shell.FlyoutBehavior="Disabled">
+
+    <Shell.Resources>
+
+        <Style TargetType="TabBar">
+            <Setter Property="Shell.BackgroundColor" Value="#100C82" />
+            <Setter Property="Shell.ForegroundColor" Value="#ffffff" />
+            <Setter Property="Shell.TitleColor" Value="#ffffff" />
+            <Setter Property="Shell.DisabledColor" Value="#888888" />
+            <Setter Property="Shell.UnselectedColor" Value="#aaaaaa" />
+        </Style>
+
+
+        <Style TargetType="Tab">
+            <Setter Property="Shell.TabBarBackgroundColor" Value="#100C82" />
+            <Setter Property="Shell.TabBarForegroundColor" Value="#ffffff" />
+            <Setter Property="Shell.TabBarTitleColor" Value="#ffffff" />
+            <Setter Property="Shell.TabBarUnselectedColor" Value="Gray" />
+
+        </Style>
+    </Shell.Resources>
+
+    <TabBar>
+        <Tab Title="首頁" Icon="home.png">
+            <ShellContent  Route="home" ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <Tab Title="搜尋" Icon="sear.png">
+            <ShellContent  Route="search" ContentTemplate="{DataTemplate local:Search}" />
+        </Tab>
+        <Tab  Title="設定" Icon="setting.png">
+            <ShellContent Route="setting" ContentTemplate="{DataTemplate local:Setting}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>

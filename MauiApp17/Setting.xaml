@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp17.Setting"
+             Title="設定">
+
+    <Grid>
+        <Frame BackgroundColor="#100C82" CornerRadius="0" Padding="0" BorderColor="#100C11"/>
+
+        <VerticalStackLayout>
+
+        
+        <HorizontalStackLayout Margin="0,10,0,0">
+
+            <Label Text="通知"  FontSize="30" VerticalOptions="Center"  WidthRequest="350" TextColor="White"/>
+
+            <Switch x:Name="notificationSwitch" Toggled="OnSwitchToggled"  />
+
+        </HorizontalStackLayout>
+            <Label  x:Name="entryName" Text="暱稱:" FontSize="20" TextColor="White" Margin="0,10,0,0"/>
+            <Entry x:Name="name"   Placeholder="請輸入暱稱"  FontSize="20"  TextColor="White"/>
+
+        <Label x:Name="choseTime" Text="通知時間:"  FontSize="20" TextColor="White"/>
+
+
+
+        <TimePicker  x:Name="timePicker2" IsVisible="True"  FontSize="20" TextColor="White"/>
+        <Label  x:Name="choseLocal" Text="通知地點:"  FontSize="20" TextColor="White"/>
+        <Picker x:Name="choseCity" Title="請選擇通知城市"  FontSize="20" SelectedIndexChanged="OnPickerSelectedIndexChanged" TextColor="White"/>
+        <Label x:Name="choseDetail" Text="通知細項:"  FontSize="20" TextColor="White"/>
+    
+       
+        <HorizontalStackLayout>
+
+                <Label x:Name="MaxLable" Text="最高溫"   FontSize="15" VerticalOptions="Center" WidthRequest="350"  TextColor="White"/>
+
+            <Switch x:Name="maxSwitch" />
+
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout >
+
+                <Label x:Name="MinLable" Text="最低溫"  FontSize="15"  VerticalOptions="Center"  WidthRequest="350"  TextColor="White"/>
+
+            <Switch x:Name="minSwitch"  />
+
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+
+                <Label x:Name="deLable" Text="天氣描述"   FontSize="15" VerticalOptions="Center"  WidthRequest="350"  TextColor="White"/>
+
+            <Switch x:Name="deSwitch"  />
+
+        </HorizontalStackLayout>
+
+        <Button Text="完成" Clicked="OnButtonClick"/>
+         </VerticalStackLayout>
+    </Grid>
+</ContentPage>
