@@ -21,7 +21,7 @@ namespace MauiApp17
             latitude = Preferences.Get("latitude", latitude);
             longitude = Preferences.Get("longitude", longitude);
             
-           string url = $"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current=temperature_2m,is_day,rain&hourly=temperature_2m,weather_code,uv_index&daily=weather_code,temperature_2m_max,temperature_2m_min";
+           string url = $"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&hourly=temperature_2m,weather_code,uv_index&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Asia%2FTokyo";
 
             HttpClient client = new HttpClient();
              
@@ -167,8 +167,7 @@ namespace MauiApp17
             dayFramesParent = new Frame[] { day1, day2, day3, day4, day5 };
 
 
-            string url = $"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&current=temperature_2m,is_day,rain&hourly=temperature_2m,weather_code,uv_index&daily=weather_code,temperature_2m_max,temperature_2m_min";
-
+            string url = $"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&hourly=temperature_2m,weather_code,uv_index&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Asia%2FTokyo";
             HttpClient client = new HttpClient();
             try
             {

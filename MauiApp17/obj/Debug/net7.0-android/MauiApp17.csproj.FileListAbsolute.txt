@@ -1010,6 +1010,13 @@ C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\compressed_assemblies.x86_64.o
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\jni_remap.x86_64.o
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
+C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\sp\drawable\maui_splash_image.xml
+C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\sp\values\maui_colors.xml
+C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\mauisplash.stamp
+C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\3E4017757CC97BD9-files.cache
+C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\r\drawable\cloudy.png
+C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\r\drawable\clo.png
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\assets\mscorlib.dll
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\assets\System.Data.Common.dll
@@ -1023,10 +1030,3 @@ C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\android\assets\System.Xml.dll
-C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\sp\values\maui_colors.xml
-C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\mauisplash.stamp
-C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\3E4017757CC97BD9-files.cache
-C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\r\drawable\cloudy.png
-C:\Users\user\source\repos\MauiApp17\MauiApp17\obj\Debug\net7.0-android\resizetizer\r\drawable\clo.png
